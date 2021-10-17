@@ -1,0 +1,28 @@
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e931/fast && /usr/bin/make -f CMakeFiles/cmTC_0e931.dir/build.make CMakeFiles/cmTC_0e931.dir/build
+make[1]: Entering directory '/home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e931.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g -O0 -fprofile-arcs -ftest-coverage    -o CMakeFiles/cmTC_0e931.dir/CheckIncludeFile.c.o   -c /home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0e931
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e931.dir/link.txt --verbose=1
+/usr/bin/cc -g -O0 -fprofile-arcs -ftest-coverage     CMakeFiles/cmTC_0e931.dir/CheckIncludeFile.c.o  -o cmTC_0e931 
+make[1]: Leaving directory '/home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8efb6/fast && /usr/bin/make -f CMakeFiles/cmTC_8efb6.dir/build.make CMakeFiles/cmTC_8efb6.dir/build
+make[1]: Entering directory '/home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8efb6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -O0 -fprofile-arcs -ftest-coverage -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8efb6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8efb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8efb6.dir/link.txt --verbose=1
+/usr/bin/cc -g -O0 -fprofile-arcs -ftest-coverage -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8efb6.dir/CheckFunctionExists.c.o  -o cmTC_8efb6  -lpthread 
+make[1]: Leaving directory '/home/artem/Desktop/formal_lang/bin/CMakeFiles/CMakeTmp'
+
+
+
